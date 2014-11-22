@@ -1,0 +1,59 @@
+.navmenu ul
+{
+  display: none;
+  position: absolute;
+  margin-left: -2px;
+  margin-top: 2px;
+  padding: 0px;
+}
+.navmenu li:hover > ul
+{
+  display: block;
+}
+.navmenu ul.parent_hover
+{
+  display: block;
+}
+.navmenu li
+{
+  list-style-type: none;
+  border: 1px solid #3366cc;
+  color: #000033;
+  background-color: #6699FF;
+  position: relative;
+  padding: 2px;
+}
+.navmenu a
+{
+  color: #000033;
+  display:block;
+  width: 100%;
+  text-decoration: none;
+  
+}
+.navmenu > li
+{
+  float: left;
+}
+.navmenu a:hover
+{
+  background-color: #f8f8fb;
+}
+.navmenu ul ul
+{
+  top: 0;
+  left: 99%;
+}
+.navmenu
+{
+  width: 100%;
+  background-color: #6699FF;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navmenu li:hover
+{
+  background-color: #f8f8fb;
+}
